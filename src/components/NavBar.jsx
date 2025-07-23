@@ -8,24 +8,35 @@ const variantClasses = {
 
 export default function NavBar() {
   return (
-    <div className='flex justify-between items-center h-[100px] px-4 bg-primary-200 text-primary-100'>
-        <div className='flex items-center gap-4'>
-            <LuLayoutDashboard className='text-5xl text-primary-50'/>
-            <h1 className='font-bold text-4xl text-primary-100'>Business</h1>
-            <h1 className='font-bold text-4xl text-primary-50'>Cafe</h1>
+    <div className='flex flex-col lg:flex-row justify-between items-center min-h-[100px] px-4 bg-primary-200 text-primary-100 py-4 lg:py-0 gap-4 lg:gap-0'>
+        {/* Logo Section */}
+        <div className='flex items-center gap-2 md:gap-4'>
+            <LuLayoutDashboard className='text-3xl md:text-4xl lg:text-5xl text-primary-50'/>
+            <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl text-primary-100'>Business</h1>
+            <h1 className='font-bold text-2xl md:text-3xl lg:text-4xl text-primary-50'>Cafe</h1>
         </div>
-        <div className='flex gap-4'>
-            <div>
-                <a href="/" className={`is-active ${variantClasses.primary} px-4 py-2`}>Home</a>
+
+        {/* Navigation Links */}
+        <div className='flex flex-col sm:flex-row gap-2 md:gap-4 w-full lg:w-auto'>
+            <div className='w-full sm:w-auto'>
+                <a href="/" className={`${variantClasses.primary} px-3 py-2 md:px-4 md:py-2 rounded transition-colors block text-center sm:inline-block hover:bg-primary-300`}>
+                    Home
+                </a>
             </div>
-            <div>
-                <a href="/about" className={`is-active ${variantClasses.primary} text-primary-100 px-4 py-2`}>About</a>
+            <div className='w-full sm:w-auto'>
+                <a href="/about" className={`text-primary-100 px-3 py-2 md:px-4 md:py-2 hover:text-primary-50 hover:bg-primary-300 rounded transition-colors block text-center sm:inline-block`}>
+                    About
+                </a>
             </div>
-            <div>
-                <a href="/blog" className={`is-active ${variantClasses.primary} text-primary-100 px-4 py-2`}>Blog</a>
+            <div className='w-full sm:w-auto'>
+                <a href="/blog" className={`text-primary-100 px-3 py-2 md:px-4 md:py-2 hover:text-primary-50 hover:bg-primary-300 rounded transition-colors block text-center sm:inline-block`}>
+                    Blog
+                </a>
             </div>
-            <div>
-                <a href="/contact" className={`is-active ${variantClasses.primary} text-primary-100 px-4 py-2`}>Contact</a>
+            <div className='w-full sm:w-auto'>
+                <a href="/contact" className={`text-primary-100 px-3 py-2 md:px-4 md:py-2 hover:text-primary-50 hover:bg-primary-300 rounded transition-colors block text-center sm:inline-block`}>
+                    Contact
+                </a>
             </div>
         </div>
     </div>

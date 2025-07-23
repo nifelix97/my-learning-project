@@ -35,7 +35,7 @@ function App() {
     <div>
       <NavBar />
       <Container />
-      <div className="px-21 py-7 grid grid-cols-1 md:grid-cols-3 large:grid-cols-4 gap-2">
+      <div className="px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 py-6 xs:py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 xs:gap-6 sm:gap-8">
         {productData.map(product => (
           <Products 
             key={product.id}
