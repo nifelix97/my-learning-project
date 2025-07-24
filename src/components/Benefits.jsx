@@ -35,7 +35,7 @@ export default function Benefits() {
                 <RxLayers className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl" />
               </div>
               <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-primary-100 font-bold mb-1 xs:mb-2 text-center">
-                Professional Space
+                High Speed Wifi
               </h1>
               <p className="text-xs xs:text-sm sm:text-base text-primary-100 text-center px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -47,7 +47,7 @@ export default function Benefits() {
                 <RxLayers className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl" />
               </div>
               <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-primary-100 font-bold mb-1 xs:mb-2 text-center">
-                Flexible Space
+                Parking Area
               </h1>
               <p className="text-xs xs:text-sm sm:text-base text-primary-100 text-center px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -71,7 +71,7 @@ export default function Benefits() {
                 <RxLayers className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl" />
               </div>
               <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-primary-100 font-bold mb-1 xs:mb-2 text-center">
-                Scalable Space
+                24/7 Access
               </h1>
               <p className="text-xs xs:text-sm sm:text-base text-primary-100 text-center px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -83,7 +83,7 @@ export default function Benefits() {
                 <RxLayers className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl" />
               </div>
               <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-primary-100 font-bold mb-1 xs:mb-2 text-center">
-                Modern Space
+                Great Location
               </h1>
               <p className="text-xs xs:text-sm sm:text-base text-primary-100 text-center px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -95,7 +95,7 @@ export default function Benefits() {
                 <RxLayers className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl" />
               </div>
               <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl text-primary-100 font-bold mb-1 xs:mb-2 text-center">
-                Comfortable Space
+                outdoor space 
               </h1>
               <p className="text-xs xs:text-sm sm:text-base text-primary-100 text-center px-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
