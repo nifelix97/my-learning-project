@@ -9,7 +9,7 @@ const variantClasses = {
 export default function () {
   return (
    <div>
-     <div className="h-[350px] xs:h-[400px] sm:h-[450px] md:h-[400px] lg:h-[450px] xl:h-[500px] relative">
+     <div className="h-[350px] xs:h-[400px] sm:h-[450px] md:h-[400px] lg:h-[450px] xl:h-[500px] relative mt-4 xs:mt-6 sm:mt-8 md:mt-10 lg:mt-12 xl:mt-16">
       <img
         src="https://i.pinimg.com/736x/23/0e/0f/230e0f342d9b4e8d31d8cae95e3e2288.jpg"
         alt=""

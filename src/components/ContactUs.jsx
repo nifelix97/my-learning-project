@@ -51,7 +51,14 @@ export default function ContactUs() {
   }
 
   return (
-    <div className='py-6 xs:py-8 sm:py-10 md:py-12'>
+    <div className='py-6 xs:py-8 sm:py-10 md:py-12 ' style={{
+        backgroundImage: `url('https://img.freepik.com/free-vector/worldwide-connection-gray-background-illustration-vector_53876-76827.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundColor: 'primary-50',
+        backgroundAttachment: 'fixed'
+      }}>
       <div className="flex flex-col lg:flex-row justify-center items-start px-4 xs:px-6 sm:px-8 md:px-12 lg:px-16 gap-6 lg:gap-12">
         
         <div className="w-full lg:max-w-lg text-center lg:text-left">
@@ -109,6 +116,7 @@ export default function ContactUs() {
               name="name"
               value={formData.name}
               onChange={handleChange}
+              className={`${errors.subject ? 'border-red-500' : ''}`}
             />
             {errors.name && <span className="text-red-500 text-sm">{errors.name}</span>}
             
@@ -118,6 +126,7 @@ export default function ContactUs() {
               name="email"
               value={formData.email}
               onChange={handleChange}
+              className={`${errors.subject ? 'border-red-500' : ''}`}
             />
             {errors.email && <span className="text-red-500 text-sm">{errors.email}</span>}
             
@@ -127,13 +136,14 @@ export default function ContactUs() {
               name="subject"
               value={formData.subject}
               onChange={handleChange}
+              className={`${errors.subject ? 'border-red-500' : ''}`}
             />
             {errors.subject && <span className="text-red-500 text-sm">{errors.subject}</span>}
             
             <InPut
               type={'textarea'}
               placeholder={'Your Message'}
-              className={'h-24 xs:h-28 sm:h-32'}
+              className={`h-24 xs:h-28 sm:h-32 ${errors.message ? 'border-red-500' : ''}`}
               name="message"
               value={formData.message}
               onChange={handleChange}
